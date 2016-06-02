@@ -1,0 +1,201 @@
+html, body {
+	width: 100%;
+	height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "HelveticaNeue", "Helvetica Neue", "PT Sans", Helvetica, Arial, sans-serif;
+}    
+
+/* Gradient Animation Settings
+–––––––––––––––––––––––––––––––––––––––––––––––––– */    
+
+.gradient {
+    background: linear-gradient(180deg, #ff5800, #ff5800, #d71f85, #00afd8,  #cb0044, #ff5800, #ff5800);
+    background-size: 1600% 1600%;
+    -webkit-animation: LX-Background 120s linear alternate infinite;
+    -moz-animation: LX-Background 120s linear alternate infinite;
+    animation: LX-Background 120s linear alternate infinite;
+}    
+    
+@-webkit-keyframes LX-Background {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-moz-keyframes LX-Background {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@keyframes LX-Background { 
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}    
+    
+
+/* Buttons & Colours
+–––––––––––––––––––––––––––––––––––––––––––––––––– */    
+
+.button {
+    display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 4px;
+    cursor: pointer;
+    box-sizing: border-box; 
+    }
+
+.button:hover {
+    background-color: #fff;
+    }   
+    
+a {
+    color: #fff; 
+    text-decoration: none;
+}
+
+a:hover {
+    color: #333; }
+    
+.orange-bg {
+    background-color: #ff5800;    
+    }    
+
+.pink-bg {
+    background-color: #d71f85;    
+    }
+
+.purple-bg {
+    background-color: #91004b;    
+    } 
+
+.blue-bg {
+    background-color: #00afd8;    
+    }   
+
+.grey-bg  {
+    background-color: #333;    
+    }    
+    
+/* Divs 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+ 
+.container {
+    padding-top: 1px;
+    margin-top: -1px;    
+    }    
+    
+.fullscreen-logo {
+    width: 50%;
+    margin-top: 30vh;
+    margin-left: 25vw;
+}
+
+
+.logo {
+    min-height: 40vh;
+    min-width: 50%;
+    min-height: auto;
+    margin-left: 25vw;
+    display: block;
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 600px) {
+.logo {
+    max-height: 25vh;
+    width: 100%;
+    margin-left: 25vw;
+    margin-right: 15vw;
+}   
+}
+
+.content-area {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box; 
+    text-align: center;
+}
+
+/* Navigation 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+nav {
+  text-align: center;
+  margin-top: -6px;
+}
+
+
+nav ul {
+  list-style: none;
+  margin: 0px 0px;
+  padding: 0;
+}
+
+nav li{
+  display: inline-block;
+  background-color: #333;
+  margin: 0px 0px;
+  border-right: 1px solid rgba(255,255,255,.5);
+  box-sizing: border-box;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  text-transform:uppercase;
+  display: block;
+  padding: 1.2em 0px;
+
+}
+
+nav a:hover {
+    background-color: #d71f85;
+    color: #fff;
+}
+
+nav li:nth-child(even) {
+  width: 50%;
+  float: right; 
+  border-bottom: 1px solid #fff;
+}
+nav li:nth-child(odd) {
+  width: 50%;
+  float: left;
+  border-bottom: 1px solid #fff;
+
+}
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 600px) {
+
+nav li:nth-child(n) {
+  width: 25%;
+  float: left; 
+}
+
+}
+.navclass:before,
+.navclass:after {
+    content: " "; /* 1 */
+    display: table; /* 1 */
+}
+.navclass:after {
+    clear: both;
+}
+.navclass {
+    *zoom: 1;
+}
