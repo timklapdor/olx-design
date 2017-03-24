@@ -1,0 +1,27 @@
+---
+layout: page
+---
+
+<a onclick="window.history.back()"><button class="back-button">Back</button></a>
+
+<blockquote><p>{{ page.content }}</p></blockquote>
+
+<p>Example strategies for <strong>{{ page.title }}</strong> include:</p>
+
+{% assign collection_tags =  site.strategies | map: 'tags' | join: ','  | split: ',' | uniq | sort %}
+
+{% for tag in collection_tags %}
+  <ul>
+  {% if tag contains page.tags %}
+  {% for strategies in site.strategies %}
+    {% if strategies.tags contains tag %}
+    <li><a href="{{ site.baseurl }}{{ strategies.url }}">{{ strategies.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+  {% endif %}
+  </ul>
+{% endfor %}
+
+<div class="row-flex extra-padding">
+<p><a href="{{ site.baseurl }}/model/{{ page.link }}" class="button grey-bg ">Find out more about this element</a></p>
+</div>

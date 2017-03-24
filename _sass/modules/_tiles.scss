@@ -1,0 +1,80 @@
+// Tiles
+//==========================================================================
+
+.tile-icons {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+}
+
+.tiles {
+    text-align: center;
+    flex: 1 0 auto;
+    border-radius: 5px;
+    padding: 0.5%;
+    margin:0.5em;
+    min-width: 170px;
+    max-width: 200px
+}
+
+.tiles a {
+    display: block;
+    text-decoration: none;
+}
+
+.tiles:hover {
+    background-color: $lx-purple;
+}
+
+.trans .tiles:hover {
+    background-color: rgba(255,255,255,0.3);
+}
+
+.tiles h4 {
+    font-size: .75rem;
+    line-height: .75rem;
+    color: $lx-white;
+}
+
+/* Tablet */
+@media (max-width: 800px) {
+  .tiles {
+    width: 30%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .tiles {
+    width: 45%;
+    }
+}
+
+// Boxes
+//==========================================================================
+
+.box-container-rows {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.box-container-columns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+
+.box {
+  width: calc(100vw/5);
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  border-radius: $global-radius;
+}
