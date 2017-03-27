@@ -3,10 +3,10 @@
   <channel>
     <title>CSU Online Learning Exchange</title>
     <description>Developed and Maintained by Charles Sturt University's u!magine</description>
-    <link>http://localhost:4000/csulx/</link>
-    <atom:link href="http://localhost:4000/csulx/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 24 Mar 2017 17:40:32 +1100</pubDate>
-    <lastBuildDate>Fri, 24 Mar 2017 17:40:32 +1100</lastBuildDate>
+    <link>/olx-design/</link>
+    <atom:link href="/olx-design/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 27 Mar 2017 15:17:33 +1100</pubDate>
+    <lastBuildDate>Mon, 27 Mar 2017 15:17:33 +1100</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -68,8 +68,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Mon, 19 Sep 2016 15:15:00 +1000</pubDate>
-        <link>http://localhost:4000/csulx/strategy/role-play.html</link>
-        <guid isPermaLink="true">http://localhost:4000/csulx/strategy/role-play.html</guid>
+        <link>/olx-design/strategy/role-play.html</link>
+        <guid isPermaLink="true">/olx-design/strategy/role-play.html</guid>
         
         <category>Learning Communities</category>
         
@@ -157,7 +157,7 @@
 
 &lt;/div&gt;
 
-&lt;script src=&quot;/csulx/js/swiper.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/olx-design/js/swiper.min.js&quot;&gt;&lt;/script&gt;
 
 &lt;script&gt;
     var swiper = new Swiper('.swiper-container', {
@@ -171,8 +171,8 @@
 
 </description>
         <pubDate>Mon, 19 Sep 2016 14:34:00 +1000</pubDate>
-        <link>http://localhost:4000/csulx/strategy/social-media-streams.html</link>
-        <guid isPermaLink="true">http://localhost:4000/csulx/strategy/social-media-streams.html</guid>
+        <link>/olx-design/strategy/social-media-streams.html</link>
+        <guid isPermaLink="true">/olx-design/strategy/social-media-streams.html</guid>
         
         <category>Learning Communities</category>
         
@@ -247,8 +247,8 @@ doi: 10.1016/j.compedu.2009.12.003&lt;/p&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 30 Aug 2016 13:55:00 +1000</pubDate>
-        <link>http://localhost:4000/csulx/strategy/creating-shared-resource.html</link>
-        <guid isPermaLink="true">http://localhost:4000/csulx/strategy/creating-shared-resource.html</guid>
+        <link>/olx-design/strategy/creating-shared-resource.html</link>
+        <guid isPermaLink="true">/olx-design/strategy/creating-shared-resource.html</guid>
         
         <category>Learning Communities</category>
         
@@ -295,7 +295,7 @@ doi: 10.1016/j.compedu.2009.12.003&lt;/p&gt;
 
 &lt;p&gt;While Interact2 provides a common interface and set of tools for students, they can be used in quite different ways in the teaching of a subject. Providing students with a “guided tour” of the learning environment is an excellent way to orient them to the space and how the subject will be taught. Simply explaining how and why the different tools will be us ed is a great way to kick off the teaching session and will help in establishing expectations and get keen students off on the right foot.&lt;/p&gt;
 
-&lt;p&gt;This could be part of a &lt;a href=&quot;http:///csulx/strategy/welcome-videos.html&quot;&gt;Welcome Video&lt;/a&gt; and displayed prominently on the subject landing page. Labelling the navigation in a consistent and obvious way can provide students with the necessary signposts needed to find relevant and timely information. Some like to utilise the sites landing page to offer students an updated weekly schedule with links to the relevant lessons and resources. A more interactive way of getting students to orient themselves would be to set up an orientation activity. This could be a scavenger hunt where students find hidden items or a quick quiz that tests if students have read important information.&lt;/p&gt;
+&lt;p&gt;This could be part of a &lt;a href=&quot;http:///olx-design/strategy/welcome-videos.html&quot;&gt;Welcome Video&lt;/a&gt; and displayed prominently on the subject landing page. Labelling the navigation in a consistent and obvious way can provide students with the necessary signposts needed to find relevant and timely information. Some like to utilise the sites landing page to offer students an updated weekly schedule with links to the relevant lessons and resources. A more interactive way of getting students to orient themselves would be to set up an orientation activity. This could be a scavenger hunt where students find hidden items or a quick quiz that tests if students have read important information.&lt;/p&gt;
 
 &lt;h3 id=&quot;tools&quot;&gt;Tools&lt;/h3&gt;
 
@@ -304,8 +304,8 @@ doi: 10.1016/j.compedu.2009.12.003&lt;/p&gt;
 &lt;p&gt;The subject &lt;em&gt;SSS032 Introduction to Learning Online&lt;/em&gt; is a useful resource for students in itself as it introduces Interact2 tools and a range of online teaching and learning strategies.&lt;/p&gt;
 </description>
         <pubDate>Wed, 20 Jul 2016 15:20:00 +1000</pubDate>
-        <link>http://localhost:4000/csulx/strategy/orientation-to-the-environment.html</link>
-        <guid isPermaLink="true">http://localhost:4000/csulx/strategy/orientation-to-the-environment.html</guid>
+        <link>/olx-design/strategy/orientation-to-the-environment.html</link>
+        <guid isPermaLink="true">/olx-design/strategy/orientation-to-the-environment.html</guid>
         
         <category>Learning Communities</category>
         
@@ -347,8 +347,8 @@ doi: 10.1016/j.compedu.2009.12.003&lt;/p&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Wed, 20 Jul 2016 14:00:00 +1000</pubDate>
-        <link>http://localhost:4000/csulx/strategy/guest-lectures.html</link>
-        <guid isPermaLink="true">http://localhost:4000/csulx/strategy/guest-lectures.html</guid>
+        <link>/olx-design/strategy/guest-lectures.html</link>
+        <guid isPermaLink="true">/olx-design/strategy/guest-lectures.html</guid>
         
         <category>Interaction with the Professions</category>
         
@@ -386,8 +386,8 @@ doi: 10.1016/j.compedu.2009.12.003&lt;/p&gt;
 &lt;p&gt;Word, Powerpoint, YouTube,&lt;/p&gt;
 </description>
         <pubDate>Wed, 20 Jul 2016 10:03:00 +1000</pubDate>
-        <link>http://localhost:4000/csulx/strategy/choice-within-assessments.html</link>
-        <guid isPermaLink="true">http://localhost:4000/csulx/strategy/choice-within-assessments.html</guid>
+        <link>/olx-design/strategy/choice-within-assessments.html</link>
+        <guid isPermaLink="true">/olx-design/strategy/choice-within-assessments.html</guid>
         
         <category>Interaction Between Students</category>
         
@@ -447,8 +447,8 @@ doi: 10.1016/j.compedu.2009.12.003&lt;/p&gt;
 &lt;p&gt;Interact2 Site Analytics, Tests and Surveys, Discussion Forums, YouTube, Smart Sparrow,&lt;/p&gt;
 </description>
         <pubDate>Wed, 20 Jul 2016 10:03:00 +1000</pubDate>
-        <link>http://localhost:4000/csulx/strategy/adapting-learning-resources.html</link>
-        <guid isPermaLink="true">http://localhost:4000/csulx/strategy/adapting-learning-resources.html</guid>
+        <link>/olx-design/strategy/adapting-learning-resources.html</link>
+        <guid isPermaLink="true">/olx-design/strategy/adapting-learning-resources.html</guid>
         
         <category>Flexible &amp; Adaptive Learning</category>
         
@@ -545,7 +545,7 @@ doi: 10.1016/j.compedu.2009.12.003&lt;/p&gt;
 
 &lt;/div&gt;
 
-&lt;script src=&quot;/csulx/js/swiper.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/olx-design/js/swiper.min.js&quot;&gt;&lt;/script&gt;
 
 &lt;script&gt;
     var swiper = new Swiper('.swiper-container', {
@@ -559,8 +559,8 @@ doi: 10.1016/j.compedu.2009.12.003&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 19 Jul 2016 16:20:00 +1000</pubDate>
-        <link>http://localhost:4000/csulx/strategy/video-lectures.html</link>
-        <guid isPermaLink="true">http://localhost:4000/csulx/strategy/video-lectures.html</guid>
+        <link>/olx-design/strategy/video-lectures.html</link>
+        <guid isPermaLink="true">/olx-design/strategy/video-lectures.html</guid>
         
         <category>Teacher Presence</category>
         
@@ -621,8 +621,8 @@ doi: 10.1016/j.compedu.2009.12.003&lt;/p&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Tue, 19 Jul 2016 12:34:00 +1000</pubDate>
-        <link>http://localhost:4000/csulx/strategy/creating-rich-media-artefacts.html</link>
-        <guid isPermaLink="true">http://localhost:4000/csulx/strategy/creating-rich-media-artefacts.html</guid>
+        <link>/olx-design/strategy/creating-rich-media-artefacts.html</link>
+        <guid isPermaLink="true">/olx-design/strategy/creating-rich-media-artefacts.html</guid>
         
         <category>Interactive Resources</category>
         
@@ -688,8 +688,8 @@ doi: 10.1016/j.compedu.2009.12.003&lt;/p&gt;
 &lt;p&gt;Content Creation - you may need to utilise a range of tools including word processing programs such as Word or Pages. Alternatively, Test Centre does have a range of content creation tools including Word/Audio/Video which can be deployed in the test environment.&lt;/p&gt;
 </description>
         <pubDate>Tue, 19 Jul 2016 10:37:00 +1000</pubDate>
-        <link>http://localhost:4000/csulx/strategy/computer-based-exams.html</link>
-        <guid isPermaLink="true">http://localhost:4000/csulx/strategy/computer-based-exams.html</guid>
+        <link>/olx-design/strategy/computer-based-exams.html</link>
+        <guid isPermaLink="true">/olx-design/strategy/computer-based-exams.html</guid>
         
         <category>Flexible &amp; Adaptive Learning</category>
         
